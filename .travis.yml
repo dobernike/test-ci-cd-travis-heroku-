@@ -11,5 +11,5 @@ branches:
 deploy:
   provider: heroku
   api_key:
-    secure: ee67a78e-de39-436a-a7d5-121255cc0345
+    secure: "ee67a78e-de39-436a-a7d5-121255cc0345"
   app: test-ci-cd-travis-heroku-
