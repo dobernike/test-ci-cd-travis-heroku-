@@ -1,3 +1,15 @@
+# Factory line manager
+
+[![Travis][build-badge]][build]
+[![Coveralls][coveralls-badge]][coveralls]
+
+Awesome factory line manager!
+
+[build-badge]: https://img.shields.io/travis/dobernike/test-ci-cd-travis-heroku-/master.png?style=flat-square
+[build]: https://travis-ci.org/dobernike/test-ci-cd-travis-heroku-
+[coveralls-badge]: https://img.shields.io/coveralls/dobernike/test-ci-cd-travis-heroku-/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/dobernike/test-ci-cd-travis-heroku-
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
