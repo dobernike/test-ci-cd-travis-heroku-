@@ -2,4 +2,4 @@ deploy:
   provider: heroku
   app: "test-ci-cd-ap"
   api_key:
-    secure: ${{ secrets.HEROKU_API_KEY}}
+    secure: "0d0fe729-854c-415d-b74b-3a0980f52b5e"
