@@ -12,8 +12,8 @@ after_success:
   - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 
-  deploy:
-    provider: heroku
-    app: test-ci-cd-travis-heroku-
-    api_key:
-      secure: "c3a6cbcd-11f3-410d-9fac-f55563c2955e"
+deploy:
+  provider: heroku
+  app: test-ci-cd-travis-heroku-
+  api_key:
+    secure: "c3a6cbcd-11f3-410d-9fac-f55563c2955e"
