@@ -1,5 +1,7 @@
 deploy:
   provider: heroku
-  app: "test-ci-cd-ap"
   api_key:
-    secure: "0d0fe729-854c-415d-b74b-3a0980f52b5e"
+    secure: 0d0fe729-854c-415d-b74b-3a0980f52b5e
+  app: test-ci-cd-travis-heroku-
+  on:
+    repo: dobernike/test-ci-cd-travis-heroku-
